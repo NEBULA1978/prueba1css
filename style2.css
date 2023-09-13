@@ -1,3 +1,142 @@
+body {
+    background-color: lightblue;
+    /* camniamos fuente letra */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Remove default margin from all elements */
+* {
+    margin: 0;
+}
+* Style all h2 elements without an id or class */ h2 {
+    color: blue;
+    background-color: rebeccapurple;
+    /* Added colon here */
+    /* separacion entre h2 */
+    margin-bottom: 20px;
+    /* Added colon here */
+    /* me deje espacio entre arriba todos h2 */
+    margin-top: 20px;
+    /* Relleno */
+    /* pone escio entre el contenido y el borde el elemento interior de h2 */
+    padding: 20px;
+    /* vemos el borde del elemento */
+    border: 10px solid black;
+    /* para decirle el ancho de los h2 */
+    width: 300px;
+    /* le digo el alto de la caja de h2 */
+    height: 150px;
+
+}
+
+p {
+    margin: 10px;
+    font-size: 10px;
+    /* poner todo el texto en negrita */
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Select by id */
+#cabecera3 {
+    color: green;
+}
+
+/* ponemos estilos al spam y a una sola palabra */
+.text-danger {
+    color: red;
+}
+
+/* Select by class */
+.text-coral {
+    color: blue;
+    background-color: rebeccapurple;
+    /* Added colon here */
+    /* separacion entre h2 */
+    margin-bottom: 20px;
+    /* Added colon here */
+    /* me deje espacio entre arriba todos h2 */
+    margin-top: 20px;
+    /* Relleno */
+    /* pone escio entre el contenido y el borde el elemento interior de h2 */
+    padding: 20px;
+    /* vemos el borde del elemento */
+    border: 10px solid black;
+    /* para decirle el ancho de los h2 */
+    width: 300px;
+    /* le digo el alto de la caja de h2 */
+    height: 150px;
+}
+
+/* Select by class */
+.text-center {
+    /* text-align: center; */
+    text-align: justify;
+    color: yellow;
+    background-color: rebeccapurple;
+    /* Added colon here */
+    /* separacion entre h2 */
+    margin-bottom: 20px;
+    /* Added colon here */
+    /* me deje espacio entre arriba todos h2 */
+    margin-top: 20px;
+    /* Relleno */
+    /* pone escio entre el contenido y el borde el elemento interior de h2 */
+    padding: 20px;
+    /* vemos el borde del elemento */
+    border: 10px solid black;
+    /* para decirle el ancho de los h2 */
+    width: 300px;
+    /* le digo el alto de la caja de h2 */
+    height: 150px;
+    /* hacer mas grande teto */
+    font-size: 17px;
+}
+
+/* Select by class */
+.text-left {
+    text-align: left;
+    color: blue;
+    background-color: rebeccapurple;
+    /* Added colon here */
+    /* separacion entre h2 */
+    margin-bottom: 20px;
+    /* Added colon here */
+    /* me deje espacio entre arriba todos h2 */
+    margin-top: 20px;
+    /* Relleno */
+    /* pone escio entre el contenido y el borde el elemento interior de h2 */
+    padding: 20px;
+    /* vemos el borde del elemento */
+    border: 10px solid black;
+    /* para decirle el ancho de los h2 */
+    width: 300px;
+    /* le digo el alto de la caja de h2 */
+    height: 150px;
+}
+
+/* Select by class */
+.text-right {
+    text-align: right;
+    color: blue;
+    background-color: red;
+    /* Added colon here */
+    /* separacion entre h2 */
+    margin-bottom: 20px;
+    /* Added colon here */
+    /* me deje espacio entre arriba todos h2 */
+    margin-top: 20px;
+    /* Relleno */
+    /* pone escio entre el contenido y el borde el elemento interior de h2 */
+    padding: 20px;
+    /* vemos el borde del elemento */
+    border: 10px solid black;
+    /* para decirle el ancho de los h2 */
+    width: 300px;
+    /* le digo el alto de la caja de h2 */
+    height: 150px;
+}
+
 /* menu navbar arribadel todo */
 .header{
     background-color:red;
@@ -44,4 +183,5 @@
     /* si caben se pone todos en linea sino pasan abajo */
     float: left;
 }
+/* Parte2 */
 
