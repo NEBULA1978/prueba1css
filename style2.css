@@ -1,0 +1,47 @@
+/* menu navbar arribadel todo */
+.header{
+    background-color:red;
+    float: left;
+    height: 40px;
+    width: 100%;
+}
+/* menu navbar arribadel todo */
+.sidebar{
+    float: left;
+    height: 400px;
+    width: 25%;
+    background-color:blue;
+}
+/* contenido menu principal */
+.content{
+    float: left;
+    height: 400px;
+    width: 75%;
+    background-color:green;
+    overflow: hidden;
+        /* Agrega esta línea */
+}
+/* .footer{
+    float: left;
+    height: 50px;
+    width: 100%;
+    background-color:green;
+} */
+
+.footer {
+    float: left;
+    height: 50px;
+    width: 100%;
+    background-color: yellow;
+    /* Cambia el color a amarillo */
+}
+/* clase */
+.box{
+    width: 100px;
+    height: 100px;
+    background-color:gray;
+    margin: 5px;
+    /* si caben se pone todos en linea sino pasan abajo */
+    float: left;
+}
+
