@@ -185,3 +185,58 @@ p {
 }
 /* Parte2 */
 
+/* Estilo para las cajas */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+    float: left;
+    /* Agregar overflow y word-wrap */
+    overflow: hidden;
+    /* Oculta el texto que desborda la caja */
+    word-wrap: break-word;
+    /* Rompe las palabras largas para que quepan en la caja */
+}
+
+/* Estilo para el texto dentro de las cajas */
+.box p {
+    margin: 5px;
+    /* Agrega margen alrededor del texto */
+    font-size: 12px;
+    /* Tamaño de fuente */
+    line-height: 16px;
+    /* Altura de línea para un espaciado adecuado */
+    text-align: left;
+    /* Alineación del texto */
+    padding: 5px;
+    /* Relleno dentro de la caja */
+    white-space: normal;
+    /* Controla el espacio en blanco dentro del texto */
+}
+/* clase */
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+    float: left;
+}
+
+/* Limpia el float para evitar que el footer se superponga */
+.content::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Estilo para el texto dentro de las cajas */
+.box p {
+    margin: 5px;
+    font-size: 14px;
+    /* Aumentamos el tamaño de fuente para mejorar la legibilidad */
+    line-height: 1.5;
+    /* Aumentamos la altura de línea para un espaciado adecuado */
+    text-align: left;
+    padding: 5px;
+    white-space: normal;
+}
